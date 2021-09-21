@@ -1,0 +1,64 @@
+/* le corps de la calculatrice. */
+.formstyle
+{
+width: 350px;
+height: 380px;
+margin: 70px auto;
+border: 3px solid skyblue;
+border-radius: 5px;
+padding: 70px;
+text-align: center;
+background-image:url(téléchargement\ \(1\).jpg)
+}
+
+
+/* Bare honrizontale contenant l'information */
+h1 {
+	text-align: center;
+	padding: 23px;
+    background:linear-gradient(to right,rgb(101, 117, 206), rgb(226, 234, 115));
+	color: white;
+	}
+
+     body{
+         margin: 0;
+         padding:0px;
+         background:linear-gradient(to right,rgb(13, 45, 228), rgb(157, 238, 51))
+
+     }
+
+
+
+     input:hover
+     {
+     background-color: green;
+     }
+         
+     *{
+     margin: 0;
+     padding: 0;
+     }
+     
+     /* création des buttons */
+     .btn{
+     width: 65px;
+     height: 55px;
+     font-size: 25px;
+     margin: 2px;
+     cursor: pointer;
+     background-color: rgba(223, 179, 59, 0.5);
+     color: white;
+     
+     }
+     
+
+     
+/* travallons sur l'ecran d'affichage */
+.textview{
+    width: 243px;
+    margin: 25px;
+    font-size: 25px;
+    padding: 25px;
+    background-color: #a9a9a9;
+    }	
+        
